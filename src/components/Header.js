@@ -1,12 +1,17 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft, faMicrophone, faGear } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <Link to="/"><FontAwesomeIcon icon={faCoffee} /></Link>
+    <header className="Header">
+      <nav className="Navbar">
+        <Link to="/"><FontAwesomeIcon icon={faAngleLeft} className="Icon FirstIcon" /></Link>
+        <h2>STUDIO GHIBLI FILMS</h2>
+        <div className="IconContainer">
+          <FontAwesomeIcon icon={faMicrophone} className="Icon" />
+          <FontAwesomeIcon icon={faGear} className="Icon LastIcon" />
+        </div>
       </nav>
     </header>
   );
