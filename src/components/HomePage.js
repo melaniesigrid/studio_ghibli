@@ -5,7 +5,7 @@ function HomePage() {
     <div>
       <FilmCard />
     </div>
-  )
-};
+  );
+}
 
 export default HomePage;

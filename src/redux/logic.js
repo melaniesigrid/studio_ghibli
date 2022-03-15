@@ -1,4 +1,4 @@
-const GET_FILMS = 'GET_FILMS'
+const GET_FILMS = 'GET_FILMS';
 
 const FILMS_URL = 'https://ghibliapi.herokuapp.com/films';
 
@@ -16,7 +16,7 @@ const logic = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
 export default logic;
 

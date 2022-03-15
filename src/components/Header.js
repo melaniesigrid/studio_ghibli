@@ -6,10 +6,10 @@ function Header() {
   return (
     <header>
       <nav>
-        <Link to="/"><FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon></Link>
+        <Link to="/"><FontAwesomeIcon icon={faCoffee} /></Link>
       </nav>
     </header>
-  )
-};
+  );
+}
 
 export default Header;
