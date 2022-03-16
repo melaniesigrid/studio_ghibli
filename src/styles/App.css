@@ -16,6 +16,7 @@
   background-color: #49236d;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .Icon {

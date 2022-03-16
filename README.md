@@ -4,7 +4,7 @@
 
 > A web application that uses the Studio Ghibli API to provide an index of films. You can click on each card to get more details!
 
-![screenshot](./ghibli_demo.gif)
+![screenshot](./ghibli_screenshot.gif)
 
 ## Built With
 
