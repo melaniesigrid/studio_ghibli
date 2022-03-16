@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/studio_ghibli/static/css/main.38b93b3c.css",
+    "main.js": "/studio_ghibli/static/js/main.6477dc3b.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/studio_ghibli/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/studio_ghibli/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/studio_ghibli/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/studio_ghibli/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/studio_ghibli/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/topImage.png": "/studio_ghibli/static/media/topImage.19822478513873555297.png",
+    "index.html": "/studio_ghibli/index.html",
+    "main.38b93b3c.css.map": "/studio_ghibli/static/css/main.38b93b3c.css.map",
+    "main.6477dc3b.js.map": "/studio_ghibli/static/js/main.6477dc3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b93b3c.css",
+    "static/js/main.6477dc3b.js"
+  ]
+}
