@@ -2,7 +2,7 @@
 
 # Studio Ghibli Films
 
-> A web application that uses the Studio Ghibli API to provide an index of films. You can click on each card to get more details! Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
+> A web application that uses [the Studio Ghibli API](https://ghibliapi.herokuapp.com/#) to provide an index of their films and details so you can choose your favorite to watch. You can click on each card to get more details! Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ![screenshot](./ghibli_screenshot.gif)
 
@@ -10,6 +10,7 @@
 
 - React
 - Redux
+- Jest
 - [The Studio Ghibli API](https://ghibliapi.herokuapp.com/#)
 
 ## Live Demo 🚀
@@ -35,6 +36,8 @@ Run `npm install` on your command line.
 ### Usage
 Navigate to the project directory `cd studio_ghibli`, and run `npm start`. Or, you may view the live demo here: https://melaniesigrid.github.io/studio_ghibli
 
+### Run tests
+Run `npm test` on your command line.
 
 ## Author
 
