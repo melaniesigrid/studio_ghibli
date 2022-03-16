@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="Header">
       <nav className="Navbar">
-        <Link to="/"><FontAwesomeIcon icon={faAngleLeft} className="Icon FirstIcon" /></Link>
+        <Link to="/studio_ghibli/"><FontAwesomeIcon icon={faAngleLeft} className="Icon FirstIcon" /></Link>
         <h2>STUDIO GHIBLI FILMS</h2>
         <div className="IconContainer">
           <FontAwesomeIcon icon={faMicrophone} className="Icon" />
