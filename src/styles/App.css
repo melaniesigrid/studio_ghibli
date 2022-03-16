@@ -66,16 +66,17 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  transition: 0.7s transform cubic-bezier(.155, 1.105, .295, 1.12),
-  webkit-transform cubic-bezier(.155, 1.105, .295, 1.12),
-  box-shadow 0.7s;
+  transition:
+    0.7s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    box-shadow 0.7s;
 }
 
 .FilmCard:hover {
   transition-timing-function: ease-in-out;
-  -moz-box-shadow: 13px 13px 0px 0px black;
-  -webkit-box-shadow: 13px 13px 0px 0px black;
-  box-shadow: 13px 13px 0px 0px black;
+  -moz-box-shadow: 13px 13px 0 0 black;
+  -webkit-box-shadow: 13px 13px 0 0 black;
+  box-shadow: 13px 13px 0 0 black;
   transform: scale(1.03);
 }
 

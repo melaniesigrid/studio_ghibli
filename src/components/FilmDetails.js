@@ -13,7 +13,6 @@ function FilmDetails() {
 
   const myFilm = films.filter((film) => film.filmKey === id);
   const currentFilm = myFilm[0];
-  console.log(currentFilm);
 
   return (
     <div className="DetailPage">
