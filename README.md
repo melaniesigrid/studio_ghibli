@@ -12,10 +12,12 @@
 - Redux
 - [The Studio Ghibli API](https://ghibliapi.herokuapp.com/#)
 
-## Live Demo
+## Live Demo 🚀
 
 [Live Demo Link](https://melaniesigrid.github.io/studio_ghibli)
 
+## Video presentation
+[Video](https://www.loom.com/share/2b36ce2b4ffa41b0a4ca1f0eb290e72f)
 
 ## Getting Started
 
@@ -31,7 +33,7 @@ Clone this repository by typing `git clone https://github.com/melaniesigrid/stud
 Run `npm install` on your command line.
 
 ### Usage
-Navigate to the project directory `cd studio_ghibli`, and run `npm start`.
+Navigate to the project directory `cd studio_ghibli`, and run `npm start`. Or, you may view the live demo here: https://melaniesigrid.github.io/studio_ghibli
 
 
 ## Author
