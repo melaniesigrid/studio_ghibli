@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Studio Ghibli Search
+# Studio Ghibli Films
 
 > Description the project.
 
+![screenshot](./weather_app.gif)
 
 ## Built With
 
