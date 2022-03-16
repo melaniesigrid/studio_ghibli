@@ -156,6 +156,20 @@ h2 {
 }
 
 @media (max-width: 700px) {
+  h2 {
+    font-size: 1rem;
+  }
+
+  .Icon {
+    margin: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .BannerDiv {
+    margin-top: 7rem;
+    width: 60vw;
+  }
+
   .FilmBanner {
     width: 80vw;
   }
