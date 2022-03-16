@@ -2,9 +2,9 @@
 
 # Studio Ghibli Films
 
-> Description the project.
+> A web application that uses the Studio Ghibli API to provide an index of films. You can click on each card to get more details!
 
-![screenshot](./weather_app.gif)
+![screenshot](./ghibli_demo.gif)
 
 ## Built With
 
