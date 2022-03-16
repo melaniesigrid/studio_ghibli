@@ -101,6 +101,14 @@ h2 {
 
 .FilmBanner {
   width: 50vw;
+  transition:
+    0.7s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.FilmBanner:hover {
+  transition-timing-function: ease-in-out;
+  transform: scale(1.03);
 }
 
 .FilmImage {
