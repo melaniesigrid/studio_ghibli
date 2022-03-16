@@ -12,9 +12,9 @@
 - Redux
 - [The Studio Ghibli API](https://ghibliapi.herokuapp.com/#)
 
-## Live Demo (Coming Soon...)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://melaniesigrid.github.io/studio_ghibli)
 
 
 ## Getting Started
