@@ -43,7 +43,7 @@ h2 {
 }
 
 .BannerDiv {
-  margin-top: 6rem;
+  margin-top: 10rem;
   width: 40vw;
 }
 
@@ -80,6 +80,14 @@ h2 {
   transform: scale(1.03);
 }
 
+.CircleArrow {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
 .FilmDescription {
   display: flex;
   justify-content: space-around;
@@ -105,9 +113,10 @@ h2 {
 
 .FilmImage {
   max-width: 100%;
-  transition: 0.7s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
-  webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
-  box-shadow 0.7s;
+  transition:
+    0.7s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    box-shadow 0.7s;
   margin-bottom: 1.3rem;
 }
 
