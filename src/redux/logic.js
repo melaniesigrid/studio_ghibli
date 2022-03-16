@@ -12,7 +12,7 @@ export const getFilmsAction = (payload) => ({
 const logic = (state = initialState, action) => {
   switch (action.type) {
     case GET_FILMS:
-      return [...state, ...action.payload];
+      return [...action.payload];
     default:
       return state;
   }
@@ -25,7 +25,7 @@ export const getFilmsApi = () => async (dispatch) => {
   const films = await response.json();
   const formatFilmData = films.map((e) => {
     const obj = {
-      id: e.id,
+      filmKey: e.id,
       title: e.title,
       originalTitle: e.original_title,
       romanisedTitle: e.original_title_romanised,

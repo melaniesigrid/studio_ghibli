@@ -15,7 +15,8 @@ function HomePage() {
         {
           films.map((film) => (
             <FilmCard
-              key={film.id}
+              key={film.filmKey}
+              filmKey={film.filmKey}
               title={film.title}
               release={film.release}
               image={film.image}

@@ -72,7 +72,6 @@ h2 {
 }
 
 .FilmCard:hover {
-  cursor: pointer;
   transition-timing-function: ease-in-out;
   -moz-box-shadow: 13px 13px 0px 0px black;
   -webkit-box-shadow: 13px 13px 0px 0px black;
@@ -85,4 +84,64 @@ h2 {
   justify-content: space-around;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.DetailPage {
+  background-color: #8549a7;
+  color: white;
+}
+
+.DetailCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0 5rem 0;
+}
+
+.FilmBanner {
+  width: 50vw;
+}
+
+.FilmImage {
+  max-width: 100%;
+}
+
+.InfoContainer div:nth-child(2n) {
+  background-color: #634087;
+}
+
+.MovieInfo {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MovieInfo:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.MovieInfo p {
+  margin: 0.3rem 1rem 0.3rem 1rem;
+  font-size: 1.2rem;
+}
+
+.Synopsis {
+  width: 50vw;
+  text-align: justify;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 700px) {
+  .FilmBanner {
+    width: 80vw;
+  }
+
+  .MovieInfo {
+    width: 80vw;
+  }
+
+  .Synopsis {
+    width: 80vw;
+  }
 }
