@@ -2,7 +2,7 @@
 
 # Studio Ghibli Films
 
-> A web application that uses the Studio Ghibli API to provide an index of films. You can click on each card to get more details!
+> A web application that uses the Studio Ghibli API to provide an index of films. You can click on each card to get more details! Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
 
 ![screenshot](./ghibli_screenshot.gif)
 
@@ -56,7 +56,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to all of my code reviewers and partners at Microverse, for your support, advice and inspiration.
+- Hat tip to all of my code reviewers and partners at Microverse, for your support, advice and inspiration. To the creators of the Studio Ghibli API, and Nelson Sawka for his design on Behance.
 
 ## 📝 License
 
