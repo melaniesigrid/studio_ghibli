@@ -43,7 +43,7 @@ h2 {
 }
 
 .BannerDiv {
-  margin-top: 6rem;
+  margin-top: 10rem;
   width: 40vw;
 }
 
@@ -78,6 +78,14 @@ h2 {
   -webkit-box-shadow: 13px 13px 0 0 black;
   box-shadow: 13px 13px 0 0 black;
   transform: scale(1.03);
+}
+
+.CircleArrow {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .FilmDescription {
