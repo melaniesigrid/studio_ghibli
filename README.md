@@ -2,7 +2,7 @@
 
 # Studio Ghibli Films
 
-> A web application that uses [the Studio Ghibli API](https://ghibliapi.herokuapp.com/#) to provide an index of their films and details so you can choose your favorite to watch. You can click on each card to get more details! Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
+> A web application that uses the [Studio Ghibli API](https://ghibliapi.herokuapp.com/#) to provide an index of their films and details so you can choose your favorite to watch. You can click on each card to get more details! Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ![screenshot](./ghibli_screenshot.gif)
 
