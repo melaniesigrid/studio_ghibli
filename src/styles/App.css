@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #493974;
+  background-color: #3a2d5c;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -58,8 +58,8 @@ h2 {
 
 .SearchInput {
   appearance: none;
-  background-color: #493974;
-  border: 5px solid #493974;
+  background-color: #3a2d5c;
+  border: 5px solid #3a2d5c;
   border-radius: 0.6rem;
   padding: 0.4rem 1rem;
   font-size: 1.3rem;
@@ -100,9 +100,9 @@ h2 {
 
 .FilmCard:hover {
   transition-timing-function: ease-in-out;
-  -moz-box-shadow: 13px 13px 0 0 black;
-  -webkit-box-shadow: 13px 13px 0 0 black;
-  box-shadow: 13px 13px 0 0 black;
+  -moz-box-shadow: 13px 13px 0 0 rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 13px 13px 0 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 13px 13px 0 0 rgba(0, 0, 0, 0.8);
   transform: scale(1.03);
 }
 
@@ -153,18 +153,15 @@ h2 {
 
 .FilmImage:hover {
   transition-timing-function: ease-in-out;
-  -moz-box-shadow: 20px 20px 0 0 black;
-  -webkit-box-shadow: 20px 20px 0 0 black;
-  box-shadow: 20px 20px 0 0 black;
+  -moz-box-shadow: 20px 20px 0 0 rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 20px 20px 0 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 20px 20px 0 0 rgba(0, 0, 0, 0.8);
   transform: scale(1.03);
 }
 
 .InfoContainer div {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.InfoContainer div:nth-child(2n) {
-  background-color: #493974;
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
 
 .MovieInfo {
@@ -174,7 +171,7 @@ h2 {
 }
 
 .MovieInfo:hover {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .MovieInfo p {
