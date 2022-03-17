@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/studio_ghibli/static/css/main.566f40d3.css",
+    "main.css": "/studio_ghibli/static/css/main.30900091.css",
     "main.js": "/studio_ghibli/static/js/main.e8215872.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/studio_ghibli/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/studio_ghibli/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,11 +9,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/studio_ghibli/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/topImage.png": "/studio_ghibli/static/media/topImage.19822478513873555297.png",
     "index.html": "/studio_ghibli/index.html",
-    "main.566f40d3.css.map": "/studio_ghibli/static/css/main.566f40d3.css.map",
+    "main.30900091.css.map": "/studio_ghibli/static/css/main.30900091.css.map",
     "main.e8215872.js.map": "/studio_ghibli/static/js/main.e8215872.js.map"
   },
   "entrypoints": [
-    "static/css/main.566f40d3.css",
+    "static/css/main.30900091.css",
     "static/js/main.e8215872.js"
   ]
 }
