@@ -52,6 +52,32 @@ h2 {
   max-height: 100%;
 }
 
+.InputContainer {
+  margin-top: 5rem;
+}
+
+.SearchInput {
+  appearance: none;
+  background-color: #49236d;
+  border: 5px solid #49236d;
+  border-radius: 0.6rem;
+  padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.753);
+  max-width: 60vw;
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.753);
+  font-weight: bold;
+}
+
 .FilmsContainer {
   display: flex;
   flex-wrap: wrap;
