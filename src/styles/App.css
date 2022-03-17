@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #49236d;
+  background-color: #493974;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -58,8 +58,8 @@ h2 {
 
 .SearchInput {
   appearance: none;
-  background-color: #49236d;
-  border: 5px solid #49236d;
+  background-color: #493974;
+  border: 5px solid #493974;
   border-radius: 0.6rem;
   padding: 0.4rem 1rem;
   font-size: 1.3rem;
@@ -122,7 +122,12 @@ h2 {
 }
 
 .DetailPage {
-  background-color: #8549a7;
+  background: #654ea3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 
@@ -154,8 +159,12 @@ h2 {
   transform: scale(1.03);
 }
 
+.InfoContainer div {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .InfoContainer div:nth-child(2n) {
-  background-color: #634087;
+  background-color: #493974;
 }
 
 .MovieInfo {
