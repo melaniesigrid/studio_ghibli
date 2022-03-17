@@ -124,9 +124,8 @@ h2 {
 .DetailPage {
   background: #654ea3;
 
-  /* stylelint-disable --fallback for old browsers */
+  /* stylelint-disable */
   background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-
   /* stylelint-enable */
 
   /* Chrome 10-25, Safari 5.1-6 */
